@@ -1,0 +1,38 @@
+Asset Discovery
+INPUT:
+Phase 1: What we think exists
+	Gather documentation 
+o	Network drawings
+o	IP Lists
+o	CSIR Drawings 
+o	ATO
+o	Letters of deviations/waivers
+o	AO/contacts/job roles/duties
+o	Configuration Management 
+
+Phase 2: What actually is happening
+	Scanning & Pulling
+o	IP endpoints
+o	DHCP
+o	DNS
+o	Service Scan/Active IPs
+o	SCCM-Query 
+o	OS Version 
+o	BIOS Version
+o	Model 
+o	NIC
+o	Hardware
+o	Patches
+o	Programs installed
+	Configuration from switch 
+
+Outputs/Deliverables:
+	IP  Names  Subnets  VLANs  Model  Computer info  Services  Configs
+o	Custom queries 
+	Network diagrams
+o	Find Discrepancies, violations, vulnerabilities, deviations from what we think and what is actually happening
+	Brief with 2 COAs:
+•	1. Accept risk
+•	2. Set timeline of fix
+	Rescan to ensure fix has actually been implemented
+
